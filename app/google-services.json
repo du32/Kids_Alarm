@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "659534605697",
+    "firebase_url": "https://kidsalarm.firebaseio.com",
+    "project_id": "kidsalarm",
+    "storage_bucket": "kidsalarm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:659534605697:android:569608fbc69c30253b0c80",
+        "android_client_info": {
+          "package_name": "com.kidsalarm.odesa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "659534605697-qtfblg9lp3fbbp5o6mfhknv55jke4cq7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnF-HZD8Lnnep0l8LpMPVeW-gw5V4Aqn0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "659534605697-qtfblg9lp3fbbp5o6mfhknv55jke4cq7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
