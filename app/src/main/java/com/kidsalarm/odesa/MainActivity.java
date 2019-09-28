@@ -80,29 +80,6 @@ public class MainActivity extends FragmentActivity {
                 bundle.putInt(MyConstants.HOUR, timeHour);
                 bundle.putInt(MyConstants.MINUTE, timeMinute);
 
-
-                int hour = alarm_timePicker.getHour();
-                int minute = alarm_timePicker.getMinute();
-
-
-                String hour_string =String.valueOf(hour);
-                String minute_string=String.valueOf(minute);
-
-
-                if (hour>12){
-
-                    hour_string=String.valueOf(hour - 12);
-                }
-
-
-                if (minute< 10){
-
-                    minute_string= "0" +String.valueOf(minute);
-                }
-
-
-
-
                 MyDialogFragment fragment = new MyDialogFragment(new MyHandler());
 
                 fragment.setArguments(bundle);
